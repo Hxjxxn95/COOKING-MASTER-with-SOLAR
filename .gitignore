@@ -1,0 +1,6 @@
+.cache/
+**/__pycache__/**
+YOLOv8/FC-1/
+*.DS_Store
+*.pyc
+*.gguf
