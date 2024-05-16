@@ -102,7 +102,7 @@ ollama list # You can check installed models with the ollama list command.
 ollama run EEVE-Korean-10.8B:lastest # Run the specified model.
 ```
 
-1. Install the required packages.
+5. Install the required packages.
 
 ``` bash
 pip install -r requirements.txt
@@ -121,7 +121,7 @@ In the __LOCAL/RAG.py__ file, set up the GPU as follows:
 ``` python
     model_kwargs = {
         # "device": "cuda"     # - NVidia GPU: "cuda"
-        "device": "mps"        # - Apple M1 GPU: "mps"
+        "device": "mps"        # - Apple Silicon GPU: "mps"
         # "device": "cpu"      # - CPU: "cpu"
     }
 ```
