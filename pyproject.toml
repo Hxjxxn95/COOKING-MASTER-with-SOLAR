@@ -2,7 +2,7 @@
 name = "langserve-ollama"
 version = "0.1.0"
 description = ""
-authors = ["teddy <teddylee777@gmail.com>"]
+authors = ["Hojoon Kim"]
 license = "MIT License"
 readme = "README.md"
 
