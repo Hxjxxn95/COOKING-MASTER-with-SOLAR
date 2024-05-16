@@ -102,7 +102,7 @@ ollama list # You can check installed models with the ollama list command.
 ollama run EEVE-Korean-10.8B:lastest # Run the specified model.
 ```
 
-1. Install the required packages.
+5. Install the required packages.
 
 ``` bash
 pip install -r requirements.txt
