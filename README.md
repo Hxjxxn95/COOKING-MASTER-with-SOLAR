@@ -135,7 +135,7 @@ ollama run EEVE-Korean-10.8B:lastest
 2. Start the server:
 
 ``` bash
-py SERVER/server.py
+python SERVER/server.py
 ```
 
 1. Start the client:
