@@ -152,10 +152,6 @@ streamlit run LOCAL/main.py
 
 ---
 
-### License
-
----
-
 ### References
 
 [YOLO v8](https://github.com/ultralytics/ultralytics)
