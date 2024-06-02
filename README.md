@@ -18,8 +18,6 @@ Used model : https://huggingface.co/heegyu/EEVE-Korean-Instruct-10.8B-v1.0-GGUF
 
 This model is a fine-tuned version of yanolja/[EEVE-Korean-10.8B-v1.0](https://huggingface.co/yanolja/EEVE-Korean-10.8B-v1.0), which is a Korean vocabulary-extended version of upstage [SOLAR-10.7B-v1.0](https://huggingface.co/upstage/SOLAR-10.7B-v1.0). Specifically, we utilized Direct Preference Optimization (DPO) through the use of [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl).
 
-For more details, please refer to our technical report: [Efficient and Effective Vocabulary Expansion Towards Multilingual Large Language Models.](https://arxiv.org/abs/2402.14714)
-
 #### YOLO v8
 
 Used model : https://github.com/ultralytics/ultralytics
