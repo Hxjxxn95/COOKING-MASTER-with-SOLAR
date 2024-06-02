@@ -70,7 +70,7 @@ The data for the Knowledge DataBase can be crawled using __Recipe_Crawling/crawl
 
 1. Install ollama from https://ollama.com/ 
 
-1.  Download the model (ggml-model-Q4_K_M.gguf) from https://huggingface.co/heegyu/EEVE-Korean-Instruct-10.8B-v1.0-GGUF and move it to __ollama-modelfile/EEVE-Korean-Instruct-10.8B-v1.0.__    
+2.  Download the model (ggml-model-Q4_K_M.gguf) from https://huggingface.co/heegyu/EEVE-Korean-Instruct-10.8B-v1.0-GGUF and move it to __ollama-modelfile/EEVE-Korean-Instruct-10.8B-v1.0.__    
 
 Or you can use the following commands:
 
@@ -85,7 +85,7 @@ huggingface-cli download \
   --local-dir-use-symlinks False
 ```
 
-2. ollama create
+3. ollama create
 
 ``` bash
 ollama create EEVE-Korean-10.8B ollama-modelfile/EEVE-Korean-Instruct-10.8B-v1.0/Modelfile
@@ -124,29 +124,29 @@ In the __LOCAL/RAG.py__ file, set up the GPU as follows:
     }
 ```
 
-1. Ensure ollama is running:
+2. Ensure ollama is running:
 
 ``` bash
 ollama run EEVE-Korean-10.8B:lastest
 ```
 
-2. Start the server:
+3. Start the server:
 
 ``` bash
 python SERVER/server.py
 ```
 
-1. Start the client:
+4. Start the client:
 
 ``` bash
 streamlit run LOCAL/main.py
 ```
 
-4. Upload the recipe.txt file. You can use the recipe.txt
+5. Upload the recipe.txt file. You can use the recipe.txt
 
-5. Upload a photo of your refrigerator.
+6. Upload a photo of your refrigerator.
 
-6. Let's enjoy the recipe search!
+7. Let's enjoy the recipe search!
 
 ---
 
